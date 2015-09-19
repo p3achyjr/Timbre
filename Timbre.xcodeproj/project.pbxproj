@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441B27561BADD8AE002A13E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B27551BADD8AE002A13E2 /* LoginViewController.swift */; };
+		441B27581BADECAF002A13E2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B27571BADECAF002A13E2 /* User.swift */; };
 		44C450E91BADD0F800AA43BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C450E81BADD0F800AA43BC /* AppDelegate.swift */; };
-		44C450EB1BADD0F800AA43BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C450EA1BADD0F800AA43BC /* ViewController.swift */; };
 		44C450EE1BADD0F800AA43BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C450EC1BADD0F800AA43BC /* Main.storyboard */; };
 		44C450F01BADD0F800AA43BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C450EF1BADD0F800AA43BC /* Images.xcassets */; };
 		44C450F31BADD0F800AA43BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C450F11BADD0F800AA43BC /* LaunchScreen.xib */; };
@@ -26,10 +27,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		441B27551BADD8AE002A13E2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		441B27571BADECAF002A13E2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		44C450E31BADD0F800AA43BC /* Timbre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timbre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C450E71BADD0F800AA43BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C450E81BADD0F800AA43BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44C450EA1BADD0F800AA43BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44C450ED1BADD0F800AA43BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44C450EF1BADD0F800AA43BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		44C450F21BADD0F800AA43BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				44C450E81BADD0F800AA43BC /* AppDelegate.swift */,
-				44C450EA1BADD0F800AA43BC /* ViewController.swift */,
 				44C450EC1BADD0F800AA43BC /* Main.storyboard */,
+				441B27571BADECAF002A13E2 /* User.swift */,
+				441B27551BADD8AE002A13E2 /* LoginViewController.swift */,
 				44C450EF1BADD0F800AA43BC /* Images.xcassets */,
 				44C450F11BADD0F800AA43BC /* LaunchScreen.xib */,
 				44C450E61BADD0F800AA43BC /* Supporting Files */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C450EB1BADD0F800AA43BC /* ViewController.swift in Sources */,
+				441B27561BADD8AE002A13E2 /* LoginViewController.swift in Sources */,
 				44C450E91BADD0F800AA43BC /* AppDelegate.swift in Sources */,
+				441B27581BADECAF002A13E2 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				44C451041BADD0F800AA43BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44C451051BADD0F800AA43BC /* Build configuration list for PBXNativeTarget "TimbreTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				44C451071BADD0F800AA43BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
