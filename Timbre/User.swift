@@ -10,7 +10,6 @@ import Foundation
 import Parse
 
 class User {
-    <#properties and methods#>
     let user = PFUser()
     user["username"] = //
     user["password"] = //
