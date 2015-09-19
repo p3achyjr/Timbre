@@ -7,7 +7,21 @@
 //
 
 import Foundation
+import Parse
 
 class User {
     <#properties and methods#>
+    let user = PFUser()
+    user["username"] = //
+    user["password"] = //
+    user.signUpInBackgroundWithBlock {
+    	(success: Boo1, error: NSError!) -> Void in
+    	if error == nil {
+    		//account created
+    		//push to profile screen
+    	}
+    	else {
+    		println(error)
+    	}
+    }
 }
